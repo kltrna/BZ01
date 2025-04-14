@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Рабочие Руки | База знаний</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Red+Rose:wght@300..700&display=swap" rel="stylesheet">
+</head>
+<body style="font-family: 'Montserrat', sans-serif; margin: 0; padding: 0; background-color: #f5f5f5; display: flex; justify-content: center; align-items: center; height: 100vh; flex-direction: column; position: relative;">
+    <div style="width: 100%; max-width: 1200px; text-align: center;">
+        <img src="logo.svg" alt="Logo" style="position: absolute; top: 50px; left: 50px; width: 50px;">
+        <h1 style="font-size: 32px; font-weight: bold; color: #2C2C2C; margin-bottom: 60px;">Рабочие Руки | База знаний</h1>
+
+        <div style="display: flex; flex-direction: column; align-items: center;">
+            <!-- Поисковая строка -->
+            <div style="width: 542px; height: 51px; border-radius: 24px; background-color: #afdafc; color: #E6E6E6; display: flex; align-items: center; justify-content: space-between; padding: 0 15px; margin-bottom: 10px; font-size: 16px;">
+                <div style="width: 20px; height: 20px; background-image: url('lup-m.svg'); background-size: contain; background-repeat: no-repeat;"></div>
+                <input type="text" placeholder="Поиск" style="background-color: transparent; border: none; color: #2C2C2C; width: 100%; font-size: 16px; outline: none; padding-left: 10px;">
+            </div>
+            
+            <!-- Часто ищут -->
+            <div style="display: flex; align-items: center; justify-content: center; gap: 10px; margin-bottom: 60px;">
+                <p style="margin: 0; font-size: 16px; color: #2C2C2C;">Часто ищут:</p>
+                <a href="#" style="text-decoration: none; background-color: #FFCC56; color: #2C2C2C; padding: 10px 20px; font-size: 16px; border-radius: 8px; display: inline-flex; align-items: center; height: 20px; transition: background-color 0.3s ease;" onmouseover="this.style.backgroundColor='#e6b800'" onmouseout="this.style.backgroundColor='#FFCC56'">Работа с админкой</a>
+                <a href="#" style="text-decoration: none; background-color: #FFCC56; color: #2C2C2C; padding: 10px 20px; font-size: 16px; border-radius: 8px; display: inline-flex; align-items: center; height: 20px; transition: background-color 0.3s ease;" onmouseover="this.style.backgroundColor='#e6b800'" onmouseout="this.style.backgroundColor='#FFCC56'">Договор</a>
+                <a href="#" style="text-decoration: none; background-color: #FFCC56; color: #2C2C2C; padding: 10px 20px; font-size: 16px; border-radius: 8px; display: inline-flex; align-items: center; height: 20px; transition: background-color 0.3s ease;" onmouseover="this.style.backgroundColor='#e6b800'" onmouseout="this.style.backgroundColor='#FFCC56'">Условия</a>
+            </div>
+
+            <!-- Блоки с контентом -->
+            <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; justify-content: center; align-items: center; max-width: 800px; margin: 0 auto;">
+                <!-- HRTech блок -->
+                <a href="most.html" style="width: 370px; height: 110px; background-color: #afdafc; color: #E6E6E6; display: flex; justify-content: center; align-items: center; border-radius: 16px; padding: 16px; text-decoration: none; transition: all 0.3s ease;" 
+                   onmouseover="this.style.backgroundColor='#283466'; this.querySelector('h2').style.color='#FFFFFF'; this.querySelector('p').style.color='#FFFFFF'" 
+                   onmouseout="this.style.backgroundColor='#afdafc'; this.querySelector('h2').style.color='#2C2C2C'; this.querySelector('p').style.color='#2C2C2C'">
+                    <img src="block1.svg" alt="HRTech" style="height: 80px; margin-right: 10px;">
+                    <div style="text-align: left;">
+                        <h2 style="font-size: 18px; margin-bottom: 10px; color: #2C2C2C; transition: color 0.3s ease;">HRTech</h2>
+                        <p style="font-size: 14px; color: #2C2C2C; transition: color 0.3s ease;">Регламенты, условия, материалы для обучения</p>
+                    </div>
+                </a>
+                
+                <!-- ERP блок -->
+                <a href="#" style="width: 370px; height: 110px; background-color: #afdafc; color: #2C2C2C; display: flex; justify-content: center; align-items: center; border-radius: 16px; padding: 16px; text-decoration: none; transition: background-color 0.3s ease;" 
+                   onmouseover="this.style.backgroundColor='#3a4a8a'" 
+                   onmouseout="this.style.backgroundColor='#afdafc'">
+                    <img src="block2.svg" alt="ERP" style="height: 80px; margin-right: 10px;">
+                    <div style="text-align: left;">
+                        <h2 style="font-size: 18px; margin-bottom: 10px; color: #2C2C2C;">ERP</h2>
+                        <p style="font-size: 14px; color: #2C2C2C;">Регламенты, условия, материалы для обучения</p>
+                    </div>
+                </a>
+                
+                <!-- FinTech блок -->
+                <a href="#" style="width: 370px; height: 110px; background-color: #afdafc; color: #E6E6E6; display: flex; justify-content: center; align-items: center; border-radius: 16px; padding: 16px; text-decoration: none; transition: all 0.3s ease;" 
+                   onmouseover="this.style.backgroundColor='#283466'; this.querySelector('h2').style.color='#FFFFFF'; this.querySelector('p').style.color='#FFFFFF'" 
+                   onmouseout="this.style.backgroundColor='#afdafc'; this.querySelector('h2').style.color='#2C2C2C'; this.querySelector('p').style.color='#2C2C2C'">
+                    <img src="block3.svg" alt="FinTech" style="height: 80px; margin-right: 10px;">
+                    <div style="text-align: left;">
+                        <h2 style="font-size: 18px; margin-bottom: 10px; color: #2C2C2C; transition: color 0.3s ease;">FinTech</h2>
+                        <p style="font-size: 14px; color: #2C2C2C; transition: color 0.3s ease;">Регламенты, условия, материалы для обучения</p>
+                    </div>
+                </a>
+                
+                <!-- Общая информация блок -->
+                <a href="#" style="width: 370px; height: 110px; background-color: #afdafc; color: #2C2C2C; display: flex; justify-content: center; align-items: center; border-radius: 16px; padding: 16px; text-decoration: none; transition: background-color 0.3s ease;" 
+                   onmouseover="this.style.backgroundColor='#3a4a8a'" 
+                   onmouseout="this.style.backgroundColor='#afdafc'">
+                    <img src="block4.svg" alt="Общая информация" style="height: 80px; margin-right: 10px;">
+                    <div style="text-align: left;">
+                        <h2 style="font-size: 18px; margin-bottom: 10px; color: #2C2C2C;">Общая информация</h2>
+                        <p style="font-size: 14px; color: #2C2C2C;">Регламенты, старые шаблоны, обучающие материалы</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Документ с меню и текстом</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Red+Rose:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      /* CSS стили */
+      body {
+        font-family: "Montserrat", sans-serif;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        color: #2c2c2c;
+        line-height: 1.6;
+      }
+
+      /* Левое меню */
+      .menu {
+        width: 460px;
+        background-color: #f5f5f5;
+        padding: 30px;
+        height: 100vh;
+        box-sizing: border-box;
+        border-right: 1px solid #ddd;
+        position: sticky;
+        top: 0;
+      }
+
+      .menu ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+      }
+
+      .menu li {
+        padding: 10px 0;
+        cursor: pointer;
+        font-size: 16px;
+      }
+
+      .menu li:hover {
+        color: #0066cc;
+      }
+
+      /* Правая часть с контентом */
+      .content {
+        max-width: 1300px;
+        flex: 1;
+        margin-left: 40px;
+        box-sizing: border-box;
+      }
+
+      /* Выноска с текстом */
+
+
+      ul,
+      ol {
+        margin: 20px 0;
+        padding-left: 25px;
+      }
+
+
+
+    </style>
+  </head>
+
+  
+  <body>
+    <!-- Левое меню -->
+    <div class="menu" id="he">
+      <ul style="margin: 20px 0; list-style: none; padding-left: 0;">
+        <li style="font-size: 24px; margin-bottom: 10px;"><a href="#" style="text-decoration: none; color: inherit;">Продукт HRTech</a></li>
+        <li style="margin-bottom: 5px;"><a href="#" style="text-decoration: none; color: inherit; font-weight: bold;">Регламенты</a></li>
+        <li style="margin-left: 15px; margin-bottom: 5px;">
+          <details style="cursor: pointer;">
+            <summary style="font-weight: bold;">
+              <a href="1ex.html" style="text-decoration: none; color: inherit;">Взаимодействие с подразделением</a>
+            </summary>
+            <ul style="margin-top: 5px; padding-left: 20px; list-style: none;">
+              <li style="margin-bottom: 3px;"><a href="#p1" style="text-decoration: none; color: inherit;">При каких условиях можно передавать сделку</a></li>
+              <li style="margin-bottom: 3px;"><a href="#p2" style="text-decoration: none; color: inherit;">Как происходит передача</a></li>
+              <li style="margin-bottom: 3px;"><a href="#p3" style="text-decoration: none; color: inherit;">Работа с уже переданной сделкой</a></li>
+              <li style="margin-bottom: 3px;"><a href="#p4" style="text-decoration: none; color: inherit;">Возврат клиента в работу Лидорубам</a></li>
+              <li style="margin-bottom: 3px;"><a href="#p5" style="text-decoration: none; color: inherit;">Передача своих клиентов на отработку Лидорубам</a></li>
+              <li><a href="#p6" style="text-decoration: none; color: inherit;">Порядок работы Лидорубов в проигрышных ситуациях</a></li>
+            </ul>
+          </details>
+        </li>
+
+        <li style="margin-left: 15px; margin-bottom: 5px;">
+          <details style="cursor: pointer;">
+            <summary style="font-weight: bold;">
+              <a href="2ex.html" style="text-decoration: none; color: inherit;">Работа с договорами и др. задачами по документообороту с клиентами</a>
+            </summary>
+            <ul style="margin-top: 5px; padding-left: 20px; list-style: none;">
+              <li style="margin-bottom: 3px;"><a href="#p1" style="text-decoration: none; color: inherit;">Заключение договора</a></li>
+              <li style="margin-bottom: 3px;"><a href="#p2" style="text-decoration: none; color: inherit;">Шаблон договора и работа с программой </a></li>
+              <li style="margin-bottom: 3px;"><a href="#p3" style="text-decoration: none; color: inherit;">Подписание договора</a></li>
+              <li style="margin-bottom: 3px;"><a href="#p4" style="text-decoration: none; color: inherit;">Задача в Битрикс для подписания договора</a></li>
+              <li style="margin-bottom: 3px;"><a href="#p5" style="text-decoration: none; color: inherit;">Процесс взаимодействия Менеджера и Бухгалтера</a></li>
+              <li style="margin-bottom: 3px;"><a href="#p5" style="text-decoration: none; color: inherit;">Сотрудники бухгалтерии отвечают на следующие вопросы клиентов</a></li>
+              <li style="margin-bottom: 3px;"><a href="#p5" style="text-decoration: none; color: inherit;">Последующая работа с действующим клиентом</a></li>
+              <li style="margin-bottom: 3px;"><a href="#p5" style="text-decoration: none; color: inherit;">Возврат средств клиенту</a></li>
+              <li style="margin-bottom: 3px;"><a href="#p5" style="text-decoration: none; color: inherit;">Продажа дополнительных услуг </a></li>
+              <li style="margin-bottom: 3px;"><a href="#p5" style="text-decoration: none; color: inherit;">Другие важные нюансы</a></li>
+              <li><a href="#p6" style="text-decoration: none; color: inherit;"> </a></li>
+            </ul>
+          </details>
+        </li>
+
+        <li style="margin-left: 15px; margin-bottom: 5px;">
+          <details style="cursor: pointer;">
+            <summary style="font-weight: bold;">
+              <a href="2ex.html" style="text-decoration: none; color: inherit;">Условия</a>
+            </summary>
+            <ul style="margin-top: 5px; padding-left: 20px; list-style: none;">
+              <li style="margin-bottom: 3px;"><a href="#p1" style="text-decoration: none; color: inherit;">Пункт 1.</a></li>
+              <li style="margin-bottom: 3px;"><a href="#p2" style="text-decoration: none; color: inherit;">Пункт 2.  </a></li>
+              <li style="margin-bottom: 3px;"><a href="#p3" style="text-decoration: none; color: inherit;">Пункт 3.</a></li>
+              
+            </ul>
+          </details>
+        </li>
+
+        <li style="margin-left: 15px; margin-bottom: 5px;">
+          <details style="cursor: pointer;">
+            <summary style="font-weight: bold;">
+              <a href="2ex.html" style="text-decoration: none; color: inherit;">Обучающие материалы</a>
+            </summary>
+            <ul style="margin-top: 5px; padding-left: 20px; list-style: none;">
+              <li style="margin-bottom: 3px;"><a href="#p1" style="text-decoration: none; color: inherit;">Скрипт</a></li>
+              <li style="margin-bottom: 3px;"><a href="#p2" style="text-decoration: none; color: inherit;">Техники/Отработки</a></li>
+              <li style="margin-bottom: 3px;"><a href="#p3" style="text-decoration: none; color: inherit;">Ссылки на встречи</a></li>
+              <li style="margin-bottom: 3px;"><a href="#p3" style="text-decoration: none; color: inherit;">Ссылки на звонки</a></li>
+              <li style="margin-bottom: 3px;"><a href="#p3" style="text-decoration: none; color: inherit;">Технические вопросы (Работа с админкой)</a></li>
+            </ul>
+          </details>
+        </li>
+      
+
+        <li style="margin-left: 15px; margin-bottom: 5px;">
+          <a href="index.html" style="text-decoration: none; color: inherit;">На главную страницу</a>
+        </li>
+
+
+      </ul>
+    </div>
+
+    <!-- Правая часть с контентом -->
+    <div class="content" style="max-width: 1300px; flex: 1; margin-left: 40px; box-sizing: border-box;">
+
+        <div style="width: 542px;
+        height: 51px;
+        border-radius: 24px;
+        background-color: #283466;
+        color: #E6E6E6;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 15px;
+        margin: 40px 0 40px 0;
+        font-size: 16px;">
+            <div style="width: 20px;
+            height: 20px;
+            background-image: url('lup.svg');
+            background-size: contain;
+            background-repeat: no-repeat;"></div>
+            <input type="text" placeholder="Поиск" style=" background-color: transparent;
+            border: none;
+            color: #E6E6E6;
+            width: 100%;
+            font-size: 16px;
+            outline: none;
+            padding-left: 10px;">
+        </div>
+        
+      <h1 style="
+          font-size: 32px;
+          margin-bottom: 25px;
+          font-weight: 600;
+          color: #2c2c2c;"> Регламент работы с договорами и другими задачами по документообороту с клиентами
+      </h1>
+
+      
+
+      <h2
+        id="p1"
+        style="
+          font-size: 24px;
+          margin: 30px 0 15px;
+          font-weight: 600;
+          color: #2c2c2c;">
+        1. Заключение договора
+      </h2>
+      <p style="font-size: 18px;
+      line-height: 1.7;
+      margin-bottom: 20px;">
+        Для формирование договора Менеджер запрашивает у клиента реквизиты организации.
+      </p>
+
+     <p style="font-size: 18px;
+     line-height: 1.7;
+     margin-bottom: 20px;">Для ООО, в случае если подписант не генеральный директор, действующий на основании Устава,  приказ о назначении директора, или доверенность. </p>
+
+      <p style="font-size: 18px;
+      line-height: 1.7;
+      margin-bottom: 20px;">Для ИП – реквизиты (карточка ИП), свидетельство о постановке на учет и копия паспорта.  Пакеты документов по ООО и ИП подгружаются в папку в Битриксе. Подгружает менеджер,  ответственный за заключение договора. </p>
+
+      <div style="background-color: #f1f8ff;
+        border-radius: 24px;
+        padding: 20px;
+        margin: 25px 0;
+        font-size: 18px;">
+        <strong style=" font-weight: 600;">Важно!</strong> <br />
+        Отправка документов (договоров и иных документов) осуществляется только по  электронной почте, указанной в договоре/карточке компании, по запросу клиента также возможна отправка через другие Мессенджеры.  
+      </div>
+
+      <h2
+        id="p2"
+        style="
+          font-size: 24px;
+          margin: 30px 0 15px;
+          font-weight: 600;
+          color: #2c2c2c;">
+        2. Шаблон договора и работа с программой 
+      </h2>
+      <p style="font-size: 18px;
+      line-height: 1.7;
+      margin-bottom: 20px;">
+        Менеджер использует только утвержденный шаблон договора. Все актуальные договора хранятся на 
+        <a
+          href="https://workhands.bitrix24.ru/bitrix/tools/disk/focus.php?folderId=337215&action=openFolderList&ncc=1"
+          style="color: #2040be; text-decoration: none; margin: 8px 0"
+          target="_blank">
+          Диске в Битрикс</a>
+        
+      </p>
+
+      <p style="font-size: 18px;
+      line-height: 1.7;
+      margin-bottom: 20px;">Есть несколько видов договоров, с которыми мы работаем:  HR-Tech,  ERP, ERP с неконкуренцией и Fin-Tech, 
+        Все договора создаются в Консоле (админке) в разделе <strong style=" font-weight: 600;">“Подготовка договоров”</strong>, оттуда же они запускаются в работу после подписания.</p>
+
+        <div style="display: flex; align-items: center; gap: 30px; margin: 20px 0;">
+        
+          <div style="flex: 1; display: flex; justify-content: center;">
+              <img
+            style="width: 600px; border-radius: 24px;"
+            src="img/bandicam-2025-04-10-19-21-36-917.gif"
+            alt="Бизнес процесс передачи сделки менеджеру"/>
+          </div>
+          <p  style="font-size: 18px;
+          line-height: 1.7;
+          margin-bottom: 20px;"> 
+            Все созданные договора выгружаются в программе и далее сохраняются в формате pdf. Менеджер внимательно проверяет созданный договор и после отправляет на проверку РОПу.
+          </p>
+      </div>
+
+      <div style="background-color: #f1f8ff;
+        border-radius: 24px;
+        padding: 20px;
+        margin: 25px 0;
+        font-size: 18px;">
+        <strong style=" font-weight: 600;">Важно!</strong> <br />
+        Только после проверки РОПа договор отправляется на подписание клиенту.
+      </div>
+
+
+
+      <h2
+      id="p3"
+      style="
+        font-size: 24px;
+        margin: 30px 0 15px;
+        font-weight: 600;
+        color: #2c2c2c;">
+      3. Подписание договора
+    </h2>
+    <p style="font-size: 18px;
+    line-height: 1.7;
+    margin-bottom: 20px;">
+      1 вариант. у клиента есть ЭДО - подписание происходит через системы ЭДО (КОНТУР, СБИС и другие.)
+      Всегда уточняем у клиента какой сервис использует он,  и фиксируем информацию в задаче</p>
+      <p style="font-size: 18px;
+      line-height: 1.7;
+      margin-bottom: 20px;">ООО “Рабочие руки” осуществляет ЭДО через сервис <strong style=" font-weight: 600;">Контур Диадок</strong></p>
+      
+      <div style="background-color: #f1f8ff;
+        border-radius: 24px;
+        padding: 20px;
+        margin: 25px 0;
+        font-size: 18px;">
+        <strong style=" font-weight: 600;">Важно!</strong> <br />
+        Если клиент не видит приглашение к ЭДО от нас, Клиент должен обратиться в техподдержку своего сервиса для устранения неполадок. Как альтернатива - Клиент направляет в наш адрес свое приглашение (наши реквизиты есть в договоре, в сервисе ЭДО поиск контрагентов осуществляется в том числе по ИНН)
+      </div>
+
+      <p style="font-size: 18px;
+      line-height: 1.7;
+      margin-bottom: 20px;"><strong style=" font-weight: 600;">Работаем по сканам для ускорения реализации клиента, но параллельно заводим задачу в Битриксе.</strong></p>
+      
+      <p style="font-size: 18px;
+      line-height: 1.7;
+      margin-bottom: 20px;">Клиент активируется в админке только после появления подписанного  договора, подписанный договор (все листы) подкрепляется в админку, в ЛК клиента. </p>
+      
+
+      <h2
+      id="p4"
+      style="
+        font-size: 24px;
+        margin: 30px 0 15px;
+        font-weight: 600;
+        color: #2c2c2c;">
+      4. Задача в Битрикс для подписания договора
+    </h2>
+
+    <h2
+      id="p5"
+      style="
+        font-size: 24px;
+        margin: 30px 0 15px;
+        font-weight: 600;
+        color: #2c2c2c;">
+      5. Процесс взаимодействия Менеджера и Бухгалтера
+    </h2>
+
+
+    <h2
+      id="p6"
+      style="
+        font-size: 24px;
+        margin: 30px 0 15px;
+        font-weight: 600;
+        color: #2c2c2c;">
+      6. Сотрудники бухгалтерии отвечают на следующие вопросы клиентов
+    </h2>
+
+
+    <h2
+      id="p7"
+      style="
+        font-size: 24px;
+        margin: 30px 0 15px;
+        font-weight: 600;
+        color: #2c2c2c;">
+      7. Последующая работа с действующим клиентом
+    </h2>
+
+
+    <h2
+      id="p8"
+      style="
+        font-size: 24px;
+        margin: 30px 0 15px;
+        font-weight: 600;
+        color: #2c2c2c;">
+      8. Возврат средств клиенту
+    </h2>
+
+    </div>
+
+    
+
+   
+  </body>
+</html>
+
+
